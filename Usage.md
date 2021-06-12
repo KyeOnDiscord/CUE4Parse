@@ -9,9 +9,9 @@ string PaksLocation = @"C:\Program Files\Epic Games\Fortnite\FortniteGame\Conten
 var Provider = new DefaultFileProvider(PaksLocation, SearchOption.TopDirectoryOnly);
 Provider.Initialize();
 ```
-- Define your AES Key (Can be retrieved from the `mainKey` in the endpoint [here](https://benbotfn.tk/api/v1/aes))
+- Define your AES Key (Can be retrieved from the `mainKey` in the endpoint [here](https://benbot.app/api/v1/aes))
 ```csharp
-string aes = "0x7412E4B98E3CEB374FBF9EB5654A5D7B785B18E3A997FAF8D22EFEEA00DF851E";
+string aes = "0x840A3C61B7BA7FDC58EAB092AC9F29D23229DA63C417F2F0ADD69F30F1B6980D";
 ```
 
 - ###### If you want to retrive assets from an Encrypted pak file with a different key you have to parse it through the loop.
